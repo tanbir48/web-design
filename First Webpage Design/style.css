@@ -1,0 +1,155 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  margin: 0;
+}
+
+nav {
+  background-color: black;
+}
+
+#nav {
+  padding: 5px;
+}
+
+nav ul {
+  display: flex;
+  paddding: 15px;
+  justify-content: center;
+}
+nav ul a {
+  text-decoration: none;
+  margin-left: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#image img {
+  width: 100%;
+}
+
+#projectIdeas {
+  background-color: rgb(26, 26, 26);
+  color: white;
+}
+#projectIdeas h2 {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 50px;
+}
+#projectIdeas p:nth-of-type(1) {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.projectWrapper {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.projectLeftIdeas {
+  width: 300px;
+  margin: 30px;
+}
+.projectRightIdeas {
+  width: 300px;
+  margin: 30px;
+}
+.projectLeftIdeas a {
+  text-decoration: none;
+  padding: 5px 14px;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin-left: 90px;
+  margin-top: 10px;
+  color: white;
+
+  background-color: transparent;
+}
+
+.projectRightIdeas a {
+  text-decoration: none;
+  padding: 5px 14px;
+  color: white;
+  margin-left: 90px;
+  margin-top: 10px;
+  border: 1px solid white;
+  border-radius: 20px;
+
+  background-color: transparent;
+}
+
+#testimonial {
+  background-image: url(./img/textImage.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#testimonial h2 {
+  text-align: center;
+  padding-top: 200px;
+  color: orange;
+}
+#testimonial p {
+  margin: auto;
+  text-align: center;
+  width: 450px;
+  color: rgb(156, 105, 8);
+  padding-bottom: 200px;
+}
+
+#services {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.leftservice,
+.middleservice,
+.rightservice {
+  width: 300px;
+  margin: 20px;
+}
+
+.leftservice a {
+  text-decoration: none;
+  padding: 5px 14px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: gray;
+
+  color: white;
+}
+.middleservice a {
+  text-decoration: none;
+  padding: 5px 14px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: gray;
+
+  color: white;
+}
+
+.rightservice a {
+  text-decoration: none;
+  padding: 5px 14px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: gray;
+
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 12px;
+  color: white;
+  background-color: rgb(27, 27, 27);
+}

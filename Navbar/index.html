@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Navbar</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="container">
+        <a href="#">Logo</a>
+        <div class="menu">
+          <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+
+            <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">Course</button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="#">Web Development</a>
+                <a href="#">Graphics Design</a>
+                <a href="#">Logo Design</a>
+              </div>
+            </div>
+            <a href="#">Contact Us</a>
+            <a href="#">Sing Up</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function (event) {
+        if (!event.target.matches(".dropbtn")) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+      };
+    </script>
+  </body>
+</html>

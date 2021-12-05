@@ -1,0 +1,82 @@
+span {
+  background-color: aqua;
+}
+
+.first {
+  width: 200px;
+  height: 200px;
+
+  background-color: blue;
+}
+
+.second {
+  width: 200px;
+  height: 200px;
+
+  background-color: yellow;
+}
+
+label {
+  display: block;
+  margin: 10px;
+}
+input {
+  display: block;
+  margin: 10px;
+}
+button {
+  margin: 10px;
+}
+
+.form {
+  display: flex;
+
+  padding: 30px;
+  margin-top: 200px;
+  justify-content: center;
+}
+.form form {
+  background-color: violet;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.table {
+  text-align: center;
+  margin: 100px;
+}
+.table table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  width: 100px;
+  height: 30px;
+}
+
+.transform {
+  width: 200px;
+  height: 200px;
+  transition: 3s;
+  background-color: blue;
+}
+
+.transform:hover {
+  width: 300px;
+  background-color: tomato;
+}
+
+.transformrotate {
+  width: 200px;
+  height: 200px;
+  transition: 3s;
+  background-color: darkmagenta;
+}
+
+.transformrotate:hover {
+  width: 300px;
+  transform: rotate(360deg);
+}

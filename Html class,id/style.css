@@ -1,0 +1,15 @@
+p {
+  color: green;
+}
+
+.colorblue {
+  color: blue;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#coloryellow {
+  color: yellow;
+  font-size: 22px;
+  font-weight: bold;
+}
